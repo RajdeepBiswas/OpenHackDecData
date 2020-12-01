@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_lfn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageFourthCoffee",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "OnPRemFourthCoffeeFiles",
+				"fileSystem": "raw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
