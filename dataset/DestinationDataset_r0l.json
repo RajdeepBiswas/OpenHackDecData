@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_r0l",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SouthridgeAzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw_bronze/movies",
+				"fileSystem": "southridge"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
