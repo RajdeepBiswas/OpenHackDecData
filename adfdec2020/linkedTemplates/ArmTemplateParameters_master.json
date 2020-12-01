@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdec2020"
+		},
+		"AzureDataLakeStorageFourthCoffee_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabaseCloudSales_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseCloudStreaming_connectionString": {
+			"value": ""
+		},
+		"SouthridgeAzureDataLake_accountKey": {
+			"value": ""
+		},
+		"moviesCosmosDb_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorageFourthCoffee_properties_typeProperties_url": {
+			"value": "https://openhackdec2020adls.dfs.core.windows.net"
+		},
+		"SouthridgeAzureDataLake_properties_typeProperties_url": {
+			"value": "https://gen2storagedec.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
