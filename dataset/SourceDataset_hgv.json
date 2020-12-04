@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_hgv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SouthridgeAzureDataLake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "southridge"
+			}
+		}
+	}
+}
